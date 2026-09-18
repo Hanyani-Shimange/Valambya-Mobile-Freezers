@@ -4,153 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>valambyamobilefreezers</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <header>
-        
-        <!--navigation links-->
-        <nav>
-
-            <a href="index.html">Homepage</a>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="enquiry.html">Enquiry</a>
-           <a href="contact.html">Contact</a>
-           
-        </nav>
-
-        <h1>Valambya Mobile Freezers</h1>
-
+    <header class="site-header">
+        <div class="container">
+            <div class="site-title">Valambya Mobile Freezers</div>
+            <nav class="site-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <section>
+    <main>
+        <div class="container">
+            <section class="card">
+                <h2>Make an Enquiry</h2>
+                <p>Looking for a reliable mobile freezer? Complete the form below and we'll get back to you with availability and pricing.</p>
+            </section>
 
-        <h2>Make an Enquiry.</h2>
-        <h3>Get in touch with Valambya Mobile Freezers.</h3>
+            <section class="card" style="margin-top:1rem;">
+                <form action="#" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name">
 
-        <p>
-            Looking for a reliable mobile freezer for your event, business, 
-            catering service or a temporary cold-storage needs? Valambya Mobile
-            Freezers is here to help.
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
 
-            Complete the enquiry Form below and provide us with your requirements.
-            Our team will review your enquiry and get back to you with availability 
-            and further information.
-        </p>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
 
-    </section>
+                    <label for="company">Company / Business Name (optional)</label>
+                    <input type="text" id="company" name="company" placeholder="Enter company or business name">
 
-    <section>
+                    <label for="services">Services Required</label>
+                    <input type="text" id="services" name="services" placeholder="e.g. Mobile Freezer Hire">
 
-        <form action="#" method="post">
-            
-            <label for="name">Full Name:</label>
-            <br>
+                    <div style="display:flex; gap:0.5rem; margin-top:0.5rem;">
+                        <div style="flex:1;">
+                            <label for="date_required">Date Required</label>
+                            <input type="date" id="date_required" name="date_required">
+                        </div>
+                        <div style="flex:1;">
+                            <label for="date_return">Date Of Return</label>
+                            <input type="date" id="date_return" name="date_return">
+                        </div>
+                    </div>
 
-            <input type="text" id="name" name="name"
-            placeholder="Enter your full name">
+                    <label for="location">Delivery / Event Location</label>
+                    <input type="text" id="location" name="location" placeholder="Enter delivery or event location">
 
-            <br><br>
+                    <label for="quantity">Number Of Freezers Required</label>
+                    <input type="number" id="quantity" name="quantity" placeholder="Enter number of freezers">
 
-            <label for="phone number">Phone Number:</label>
-            <br>
+                    <label for="notes">Additional Information / Requirements</label>
+                    <textarea id="notes" name="notes" placeholder="Enter additional information" rows="4"></textarea>
 
-            <input type="digits" id="phone nuber" name="phone number"
-            placeholder="Enter your phone number">
+                    <div style="margin-top:1rem;">
+                        <button class="btn btn-primary" type="submit">Submit Enquiry</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
 
-            <br><br>
-
-            <label for="email">Email Address:</label>
-            <br>
-
-            <input type="email" id="email" name="email"
-            placeholder="Enter your email Address">
-
-            <br><br>
-
-            <label for="company/business name">Company/Business Name (if applicable):</label>
-            <br>
-
-            <input type="text" id="company/business name" name="company/business name"
-            placeholder="Enter your company/business name">
-
-            <br><br>
-
-            <h3>Services Required</h3>
-
-            <ul>
-                <li>Mobile Freezer Hire</li>
-                <li>Cold-Storage</li>
-                <li>Event Freezer Hire</li>
-                <li>Other</li>
-            </ul>
-
-            <br>
-
-            <input type="text" id="services required" name="services required"
-            placeholder="Services Required">
-
-            <br><br>
-
-            <label for="date required">Date Required:</label>
-            <br>
-
-            <input type="date" id="date" name="date"
-            placeholder="Enter date required">
-
-            <br><br>
-
-            <label for="date of return">Date Of Return:</label>
-            <br>
-
-            <input type="date" id="date" name="date"
-            placeholder="Enter date of return">
-
-            <br><br>
-
-            <label for="delivery/event location">Delivery/Event Location:</label>
-            <br>
-
-            <input type="location" id="location" name="location"
-            placeholder="Enter delivery/event location">
-
-            <br><br>
-
-            <label for="number of freezers required">Number Of Freezers Required:</label>
-            <br>
-
-            <input type="digits" id="digits" name="digits"
-            placeholder="Enter number of freezers required">
-
-            <br><br>
-
-            <label for="additional information/requirments">Additional information/Requirements:</label>
-            <br>
-
-            <input type="text" id="additional information/requirements" name="additional information/requirements"
-            placeholder="Enter additional information/requirements">
-
-            <br><br>
-
-            <h3>Submit your enquiry.</h3>
-            <h4> Thank you for choosing Valambya Mobile Freezers.</h4>
-
-            <p>
-                We will contact you with availability, pricing and further 
-                information.
-            </p>
-
-            <ul>
-                <li>CONTACT: Valambya Mobile Freezers</li>
-                <li>PHONE: 0834127692 / 0728216996</li> 
-                <li>TEL: 0731702669 / 0681578050</li>  
-                <li>WHATSAPP: 0731702669</li> 
-                <li>EMAIL: hanyanishimange@icloud.com</li> 
-            </ul>
-
-        </form>
-    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; Valambya Mobile Freezers. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
