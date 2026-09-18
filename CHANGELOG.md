@@ -40,4 +40,10 @@ This changelog documents the second phase ("Part 2") of styling and structural u
 - Run a contrast/AX audit (e.g., Lighthouse or axe) and adjust colors if needed.
 - Optionally DRY the header/footer by extracting them into reusable includes (server-side or simple JS include) if you plan to scale.
 
-.
+## References
+- Detailed part-2 changelog: [CHANGELOG-part2.md](CHANGELOG-part2.md)
+- Main stylesheet: [css/style.css](css/style.css)
+- Homepage: [index.html](index.html)
+- Accessibility (WCAG): https://www.w3.org/WAI/standards-guidelines/wcag/
+- Contrast checker (WebAIM): https://webaim.org/resources/contrastchecker/
+- Responsive design guidance (MDN): https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
